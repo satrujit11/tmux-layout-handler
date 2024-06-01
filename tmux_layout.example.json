@@ -1,0 +1,32 @@
+{
+  "windows": [
+    {
+      "name": "terminals",
+      "panes": [
+        {
+          "size": 60,
+          "direction": "h",
+          "cmd": "n"
+        },
+        {
+          "size": 40,
+          "direction": "v",
+          "cmd": "neofetch"
+        },
+        {
+          "cmd": "l"
+        }
+      ]
+    },
+    {
+      "name": "neovim",
+      "cmd": "n",
+      "default": true
+    },
+    {
+      "name": "extra-action",
+      "cmd": "neofetch"
+    }
+  ]
+}
+
